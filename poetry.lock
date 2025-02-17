@@ -31,13 +31,13 @@ tests-mypy = ["mypy (>=1.11.1)", "pytest-mypy-plugins"]
 
 [[package]]
 name = "bandit"
-version = "1.8.0"
+version = "1.8.3"
 description = "Security oriented static analyser for python code."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "bandit-1.8.0-py3-none-any.whl", hash = "sha256:b1a61d829c0968aed625381e426aa378904b996529d048f8d908fa28f6b13e38"},
-    {file = "bandit-1.8.0.tar.gz", hash = "sha256:b5bfe55a095abd9fe20099178a7c6c060f844bfd4fe4c76d28e35e4c52b9d31e"},
+    {file = "bandit-1.8.3-py3-none-any.whl", hash = "sha256:28f04dc0d258e1dd0f99dee8eefa13d1cb5e3fde1a5ab0c523971f97b289bcd8"},
+    {file = "bandit-1.8.3.tar.gz", hash = "sha256:f5847beb654d309422985c36644649924e0ea4425c76dec2e89110b87506193a"},
 ]
 
 [package.dependencies]
@@ -419,6 +419,9 @@ files = [
     {file = "isort-5.13.2-py3-none-any.whl", hash = "sha256:8ca5e72a8d85860d5a3fa69b8745237f2939afe12dbf656afbcb47fe72d947a6"},
     {file = "isort-5.13.2.tar.gz", hash = "sha256:48fdfcb9face5d58a4f6dde2e72a1fb8dcaf8ab26f95ab49fab84c2ddefb0109"},
 ]
+
+[package.dependencies]
+colorama = {version = ">=0.4.6", optional = true, markers = "extra == \"colors\""}
 
 [package.extras]
 colors = ["colorama (>=0.4.6)"]
@@ -896,4 +899,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "1d59fbf4f749da9aa85a2c6cdbea94d595a47592c0e525cae58971e49a0b9fd0"
+content-hash = "17667a21c434a21dd0cd0d4cd577bab440218321239a1ac2eb3479e110716b43"
