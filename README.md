@@ -13,7 +13,7 @@
 [![License](https://img.shields.io/github/license/in_for_disaster_analytics/ckan-client-tacc)](https://github.com/in_for_disaster_analytics/ckan-client-tacc/blob/master/LICENSE)
 ![Coverage Report](assets/images/coverage.svg)
 
-Awesome `ckan-client-tacc` is a Python cli/package created with https://github.com/Undertone0809/python-package-template
+Sync TACC users with DSO
 
 </div>
 
