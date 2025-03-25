@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![Build status](https://github.com/in_for_disaster_analytics/ckan-client-tacc/workflows/build/badge.svg?branch=master&event=push)](https://github.com/in_for_disaster_analytics/ckan-client-tacc/actions?query=workflow%3Abuild)
 [![Python Version](https://img.shields.io/pypi/pyversions/ckan-client-tacc.svg)](https://pypi.org/project/ckan-client-tacc/)
 [![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/in_for_disaster_analytics/ckan-client-tacc/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
 
