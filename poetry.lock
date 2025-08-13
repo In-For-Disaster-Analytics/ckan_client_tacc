@@ -508,15 +508,18 @@ files = [
 
 [[package]]
 name = "pbr"
-version = "6.1.0"
+version = "7.0.0"
 description = "Python Build Reasonableness"
 optional = false
 python-versions = ">=2.6"
 groups = ["dev"]
 files = [
-    {file = "pbr-6.1.0-py2.py3-none-any.whl", hash = "sha256:a776ae228892d8013649c0aeccbb3d5f99ee15e005a4cbb7e61d55a067b28a2a"},
-    {file = "pbr-6.1.0.tar.gz", hash = "sha256:788183e382e3d1d7707db08978239965e8b9e4e5ed42669bf4758186734d5f24"},
+    {file = "pbr-7.0.0-py2.py3-none-any.whl", hash = "sha256:b447e63a2bc04fd975fc0480b8d5ebf979179e2c0ae203bf1eff9ea20073bc38"},
+    {file = "pbr-7.0.0.tar.gz", hash = "sha256:cf4127298723dafbce3afd13775ccf3885be5d3c8435751b867f9a6a10b71a39"},
 ]
+
+[package.dependencies]
+setuptools = "*"
 
 [[package]]
 name = "platformdirs"
